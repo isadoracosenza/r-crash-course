@@ -28,8 +28,8 @@ mapply(function(x, y) x + y, 1:3, 4:6)
 
 ######### dplyr #########
 
-#install.packages("dplyr")
-#library(dplyr)
+install.packages("dplyr")
+library(dplyr)
 
 df <- data.frame(
   nome = c("ana", "bruno", "carla", "davi"),
@@ -60,6 +60,6 @@ df %>%
   summarise(media_idade = mean(idade), total = n())
 
 install.packages("ggplot2")
-library
+library(ggplot2)
 
 #df %>%
